@@ -1,0 +1,50 @@
+/* start of turn button */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+#turn_after{
+  background-color: grey;
+  opacity: 0.3;
+  width: 50px;
+  height:50px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+h1{
+  text-align: center;
+  margin: 0 auto; 
+  color:white;
+}
+
+#turn_after:hover{
+  background-color:rgb(168, 168, 168);
+}
+
+/* end of turn button */
+
+canvas {
+  display: block;
+}
+
+button{
+  background-color: grey;
+  border: none;
+  font-size: 16px;
+  padding: 10px 16px;
+  color: white;
+  /* opacity: 0.5; */
+  /* text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+  padding: 15px 32px; */
+}
