@@ -13,7 +13,7 @@ This comic project leads the readers to narrowing down the exact place the cat w
 
 + **Panel 1**
   
-  The first panel sets an introduction to the whole comic. It introduces how a cat has gone missing and the whole journey is about finding it! Photoshop was used to crop the image of the wanted cat. After that, a black and white filter (done through grayscale) was used to deliver a serious mood.
+  The first panel sets an introduction to the intelligent, telling audience the background of the story and the button on the page to interact with. For the geometric figure, I use p5.js to reach the effect I want. The figure itself is constitute of several rotated squares, and the length of the squares are changing according to the sound track volume. The sound is constitute of adjusted recorded vocal, and fade-in heartbeat.
   
 
 + **Panel 2**
