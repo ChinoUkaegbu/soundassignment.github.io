@@ -23,7 +23,7 @@ This comic project leads the readers to narrowing down the exact place the cat w
   
 + **Panel 3**
 
-  The third panel was the world map panel and the fifth panel was the airport page. For these parts, it was mostly about hovering over images and interact with them. What was  difficult was that you can not interact with the image if it’s embedded with the background image, and two solutions were found were that: first using svg to trace all the border needed, and interact through different layers’ id and this was applied to the world map panel. We found a traced world map on internet, and then called the ID of different layers in CSS to change the color of the continent chosen. And the second solution is to place different layers of images, then one can directly interact with the image. However, this solution has the issue of positioning the image precisely. So to solve this, the grid display was used to posiiton the image.
+  The third panel featured the data Astara had collected floating on the screen coupled with her voice checking off the data she had collected. For the data floating on the screen, we first generated random data using http://randat.com/ , cleaned it up by removing commas, quotation marks and adding spaces between words (which would be used to separate the data in javascript) and then using javascript, animated the words to mimic a floating movement and the size and speed of the words were determined by the frequency of the words. The sound was also recorded and distorted as were other clips of Astara and looped so the sound would not stop playing abruptly.
   
 
 + **Panel 4**
