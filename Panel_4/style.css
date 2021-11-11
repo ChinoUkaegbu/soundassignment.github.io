@@ -48,3 +48,10 @@ button{
   
   padding: 15px 32px; */
 }
+button:hover{
+  background: #555555;
+  border-radius: 50px;
+}
+button{
+  border-radius: 50px; 
+}
