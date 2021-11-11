@@ -24,6 +24,24 @@ a:hover {
 a:active {
   text-decoration: underline;
 }
+
+button:hover{
+  background: #555555;
+  border-radius: 50px;
+}
+button{
+  border-radius: 50px; 
+}
+#on_button{
+  position: fixed;
+  bottom: 0;
+}
+#off_button{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
 /* 
 body{
     background-color:black;
