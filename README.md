@@ -1,6 +1,6 @@
 # Comic Assignment - *Missing Cat*
 
-## Eunsu Choi, Maya Lee, Tina Zhang, Chinonyerem Ukaegbu
+## Nouf Alabbasi, Gopika Krishnan, Tina Zhang, Chinonyerem Ukaegbu
 
 ### **Description**
 
