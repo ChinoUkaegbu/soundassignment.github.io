@@ -1,10 +1,11 @@
 
 // code acquired and edited from https://github.com/CodingTrain/website/blob/dbd1dfe415fd0a6e1f2bbeb8675e39c42d32ee71/Tutorials/P5JS/p5.js_sound/17.10_radialGraph/sketch.js
+
 var heartBeat;
+var FastheartBeat;
 var amp;
 
 var Tasks;
-var ampTasks;
 
 var button;
 let button1, button2;
@@ -19,6 +20,7 @@ var OnButton = document.getElementById("on_button");
 function preload() {
   heartBeat = loadSound('heartbeat.wav');
   Tasks = loadSound('ToDo.mp3');
+  // fastHeartBeat = loadSound('fasthearbeat.wav');
 }
 
 function setup() {
@@ -27,6 +29,7 @@ function setup() {
   heartBeat.loop();
   heartBeat.pause();
   Tasks.pause();
+  // fastHeartBeat.pause();
 
   amp = new p5.Amplitude();
 }
@@ -63,50 +66,80 @@ function draw() {
     volhistory.splice(0, 1);
   }
   //end drawing the wave code
+
+
   console.log(Tasks.currentTime());
+
   // the changing day
-  if (Tasks.currentTime()<=23){
+  if (Tasks.currentTime()<=19){
     $("#Day").html("Sunday");
-    
+
   }
-  else if (Tasks.currentTime()>23 && Tasks.currentTime()<=51){
+  else if (Tasks.currentTime()>19 && Tasks.currentTime()<=37.7){
     $("#Day").html("Monday");
   }
-  else if(Tasks.currentTime()>51 && Tasks.currentTime()<=73){
+  else if(Tasks.currentTime()>37.7 && Tasks.currentTime()<=53){
     $("#Day").html("Tuesday");
   }
-  else if(Tasks.currentTime()>73 && Tasks.currentTime()<=75){
+  // else if (round(Tasks.currentTime())%1 == )
+  // }
+  else if(Tasks.currentTime()>53 && Tasks.currentTime()<=53.25){
     $("#Day").html("Wednesday");
+
   }
-  else if(Tasks.currentTime()>75 && Tasks.currentTime()<=76){
+  else if(Tasks.currentTime()>53.25 && Tasks.currentTime()<=53.5){
     $("#Day").html("Thursday");
   }
-  else if(Tasks.currentTime()>76 && Tasks.currentTime()<=77){
+  else if(Tasks.currentTime()>53.5 && Tasks.currentTime()<=53.75){
     $("#Day").html("Friday");
   }
-  else if(Tasks.currentTime()>77 && Tasks.currentTime()<=78){
+  else if(Tasks.currentTime()>54 && Tasks.currentTime()<=54.25){
     $("#Day").html("Saterday");
   }
-  else if(Tasks.currentTime()>78 && Tasks.currentTime()<=79){
+  else if(Tasks.currentTime()>54.25 && Tasks.currentTime()<=54.5){
     $("#Day").html("Sunday");
   }
-  else if(Tasks.currentTime()>79 && Tasks.currentTime()<=80){
+  else if(Tasks.currentTime()>54.75 && Tasks.currentTime()<=55){
     $("#Day").html("Monday");
   }
-  else if(Tasks.currentTime()>80 && Tasks.currentTime()<=81){
+  else if(Tasks.currentTime()>55 && Tasks.currentTime()<=55.25){
     $("#Day").html("Tuesday");
   }
-  else if(Tasks.currentTime()>81 && Tasks.currentTime()<=82){
+  else if(Tasks.currentTime()>55.5 && Tasks.currentTime()<=55.75){
     $("#Day").html("Wednesday");
   }
-  else if(Tasks.currentTime()>82 && Tasks.currentTime()<=83){
+  else if(Tasks.currentTime()>56 && Tasks.currentTime()<=56.25){
     $("#Day").html("Thursday");
   }
-  else if(Tasks.currentTime()>83 && Tasks.currentTime()<=84){
+  else if(Tasks.currentTime()>56.25 && Tasks.currentTime()<=56.5){
     $("#Day").html("Friday");
   }
-  else if(Tasks.currentTime()>84 && Tasks.currentTime()<=85){
+  else if(Tasks.currentTime()>56.5 && Tasks.currentTime()<=56.75){
     $("#Day").html("Saterday");
+  }
+  else if(Tasks.currentTime()>57 && Tasks.currentTime()<=57.25){
+    $("#Day").html("Sunday");
+  }
+  else if(Tasks.currentTime()>57.5 && Tasks.currentTime()<=57.75){
+    $("#Day").html("Monday");
+  }
+  else if(Tasks.currentTime()>58 && Tasks.currentTime()<=58.25){
+    $("#Day").html("Tuesday");
+  }
+  else if(Tasks.currentTime()>58.5 && Tasks.currentTime()<=58.75){
+    $("#Day").html("Wednesday");
+  }
+  else if(Tasks.currentTime()>59 && Tasks.currentTime()<=59.25){
+    $("#Day").html("Thursday");
+  }
+  else if(Tasks.currentTime()>59.5 && Tasks.currentTime()<=59.75){
+    $("#Day").html("Friday");
+  }
+  else if(Tasks.currentTime()>61 && Tasks.currentTime()<=61.25){
+    $("#Day").html("Saterday");
+  }
+  else if(Tasks.currentTime()>61.5 && Tasks.currentTime()<=61.75){
+    $("#Day").html("Sunday");
   }
   else {
     $("#Day").html("Sunday");
