@@ -4,10 +4,7 @@
 
 ### **Description**
 
-It has been 585 days since March 7th, 2020, the day of school closure at NYUAD. With all classes turning remote, many students reported that the campus residents heavily depend on the campus cats for their mental health and healing. Until there was a cat missing…
-Where did the cat go?
-
-This comic project leads the readers to narrowing down the exact place the cat went. Readers get to talk to a catmom, fellow campus cats, and looks around the map, and then the cat-napper calls the reader to tease them, but the cat-napper gets caught at the airport.
+Introducing Astara, a digital assistant tasked with managing the lives of humans and organizing their daily tasks. We follow Astara’s journey with her current owner and her frustrations and eventual descent into evil met with an unexpected twist at the end. This audio story is a mix between sci fi infused with comedy and we hope our users have as much fun listening to it as we did creating it.
 
 ### **Implementation**
 
