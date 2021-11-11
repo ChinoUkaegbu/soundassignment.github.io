@@ -28,7 +28,7 @@ This comic project leads the readers to narrowing down the exact place the cat w
 
 + **Panel 4**
   
-  Photoshop was used to edit the image and illustrator to trace the image and buttons to allow for interactivity. The class name was called from the svg file to start the ringtone when hovered on the top, make colors darken when buttons are hovered, and to trigger sound when clicked on the green button. Then logic was applied to distort the audio and make it sound spooky.
+  The forth panel’s code is basically the same with the first panel’s, but I change the function linking with the turn off button, making it can not stop the spinning. When the intelligent goes crazy, I speed up the rotating time and make the angle of rotating random so that it seems loose the control. The sound is composed of irregular heartbeat, as well as the noise and recorded vocal.
   
 
 + **Panel 5**
