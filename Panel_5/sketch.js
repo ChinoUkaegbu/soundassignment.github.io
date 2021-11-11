@@ -1,0 +1,166 @@
+var song;
+var airport;
+
+var amp;
+var volhistory=[];
+var voiceflag;
+var finalflag;
+
+function preload(){
+    song = loadSound("final.mp3");
+    airport = loadSound("sound_13.mp3");
+  
+}
+
+function setup(){
+    voiceflag=false;
+    finalflag=false;
+    createCanvas(window.innerWidth,window.innerHeight);
+    angleMode(DEGREES);
+    song.play();
+    amp = new p5.Amplitude();
+    song.addCue(1.1,togglevoice);
+    song.addCue(3.5,togglevoice);
+    song.addCue(20,togglevoice);
+    song.addCue(28,togglevoice);
+    song.addCue(35,togglevoice);
+    song.addCue(42,togglevoice);
+    song.addCue(50,togglevoice);
+    song.addCue(53,togglefinal); 
+    song.addCue(65,messagepop);
+
+}
+
+function togglevoice(){
+    voiceflag=!voiceflag;
+}
+
+function togglefinal(){
+    finalflag = true;
+}
+
+function messagepop(){
+    fireSweetAlert();
+    airport.play();
+    noLoop();
+    finalcredits();
+
+}
+
+function finalcredits(){
+    background(0);
+}
+
+function draw(){
+    background(0);
+    var vol = amp.getLevel();
+    volhistory.push(vol);
+    stroke(0,255,0);
+    noFill();
+    if(voiceflag){
+        stroke(255,0,0);
+    }
+    translate(width/2,height/2);
+    beginShape();
+
+    for (var i=0;i<360;i++){
+        var r  = map(volhistory[i],0,1,10,500);
+        var x = r * cos(i);
+        var y = r * sin(i);
+        vertex(x,y); 
+        
+    }
+
+    endShape();
+
+    if(finalflag){
+        stroke(random(255),random(255),random(255));
+
+    }
+    push();
+    translate(-width/2,-height/2);
+    beginShape();
+
+    for (var i=0;i<360;i++){
+        var r  = map(volhistory[i],0,1,100,800);
+        var x = r * cos(i);
+        var y = r * sin(i);
+        vertex(x,y); 
+        
+    }
+
+    endShape();
+    pop();
+    beginShape();
+
+    for (var i=0;i<360;i++){
+        var r  = map(volhistory[i],0,1,-30,300);
+        var x = r * cos(i);
+        var y = r * sin(i);
+        vertex(x,y); 
+        
+    }
+
+    endShape();
+
+    beginShape();
+
+    for (var i=0;i<360;i++){
+        var r  = map(volhistory[i],0,1,100,-10);
+        var x = r * cos(i);
+        var y = r * sin(i);
+        vertex(x,y); 
+        
+    }
+
+    endShape();
+    
+    beginShape();
+
+    for (var i=0;i<360;i++){
+        var r  = map(volhistory[i],0,1,400,1000);
+        var x = r * cos(i);
+        var y = r * sin(i);
+        vertex(x,y); 
+        
+    }
+
+    endShape();
+
+
+    beginShape();
+    stroke(255,255,random(255));
+
+    for (var i=0;i<360;i++){
+        var r  = map(volhistory[i],0,1,0,400);
+        var x = r * cos(i);
+        var y = r * sin(i);
+        vertex(x,y); 
+        
+    }
+
+    endShape();
+    
+
+
+
+    if (volhistory.length>360) {
+        volhistory.splice(0,1);
+    }
+
+}
+
+//addcue
+
+function fireSweetAlert() {
+    Swal.fire({
+        title: 'Dear Valued Customer Astara,',
+        icon:"success",
+        html: "Your all-expense trip to Hawaii has been booked successfully! $300,000 have been charged on Human's account",
+        confirmButtonText:"<a href='six.html' >Let's Fly!</a>"
+    }
+    )
+    document.getElementsByTagName("a")[0].style.color = "black";
+
+    
+}

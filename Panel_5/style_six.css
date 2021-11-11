@@ -1,0 +1,50 @@
+body{
+    background-color:black;
+    justify-content: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+.button {
+    background-color: black;
+    color: #00ff00;
+    padding: 15px 32px;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left:670px;
+    border-radius: 5px;
+    border: solid white;
+    border-width: 0 1px;
+
+  }
+* {
+    box-sizing: border-box;
+
+    
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "\n\n";
+    clear: both;
+    display: table;
+  }
+
+  p.ex1 {
+    font-size: 60px;
+    color: #00ff00;
+    text-align: center;
+  }
