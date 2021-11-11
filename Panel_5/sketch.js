@@ -1,3 +1,7 @@
+// References: 
+//1.Radial graph(https://www.youtube.com/watch?v=h_aTgOl9J5I&list=PLglp04UYZK_PrN6xWo_nJ-8kzyXDyFUwi&index=88)
+//2.Message Alert(https://sweetalert2.github.io/)
+
 var song;
 var airport;
 
@@ -6,6 +10,7 @@ var volhistory=[];
 var voiceflag;
 var finalflag;
 
+//preload songs
 function preload(){
     song = loadSound("final.mp3");
     airport = loadSound("sound_13.mp3");
@@ -19,6 +24,8 @@ function setup(){
     angleMode(DEGREES);
     song.play();
     amp = new p5.Amplitude();
+    
+    //setting up all the cues
     song.addCue(1.1,togglevoice);
     song.addCue(3.5,togglevoice);
     song.addCue(20,togglevoice);
@@ -28,23 +35,24 @@ function setup(){
     song.addCue(50,togglevoice);
     song.addCue(53,togglefinal); 
     song.addCue(65,messagepop);
-
 }
 
+//toggle flag to change color of graph
 function togglevoice(){
     voiceflag=!voiceflag;
 }
 
+//to have random colors - done for chorus
 function togglefinal(){
     finalflag = true;
 }
 
+//final alert message
 function messagepop(){
     fireSweetAlert();
     airport.play();
     noLoop();
     finalcredits();
-
 }
 
 function finalcredits(){
@@ -60,6 +68,8 @@ function draw(){
     if(voiceflag){
         stroke(255,0,0);
     }
+    
+    //radial graphs
     translate(width/2,height/2);
     beginShape();
 
@@ -150,7 +160,7 @@ function draw(){
 
 }
 
-//addcue
+//the message content
 
 function fireSweetAlert() {
     Swal.fire({
