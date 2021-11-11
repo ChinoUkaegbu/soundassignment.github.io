@@ -41,6 +41,13 @@ This comic project leads the readers to narrowing down the exact place the cat w
 Pixlr (free alternative to Photoshop) was used to create these photos. There's a button linking to the Github repo of the website after the photos. 
 
 
+### **Sounds We Used** 
+
+Astara’s voice was produced by recording one of us reading the script we had written. And then, using the telephone option on https://voicechanger.io/, the recorded audio was distorted. Finally on Audacity, the pitch was raised by 2.05 semitones and for some recordings, the tempo was changed, and the clip was distorted to produce the effects we desired.
+The boarding call announcement for Astara as well as the “Welcome to Hawaii” clip were also recorded and edited on Audacity.
+The other sounds were sourced from the web including but not limited to the song “Nobody” by Mitski, the airport soundscape as well as the festive music playing in the Hawaiian scene.
+
+
 ### **Reflection**
 
 We found this project to be very fun! It was rather interesting to work on the different parts of the website together and to make some certain changes, discuss how we could make it better, discuss implementations etc. Overall, I believe our expectations for the project were met. We just really wanted the readers to have fun exploring the story and to have a very wholesome experience in total. We also believed the implementation was way less stressful than the first website, now that we've played around with website making so it was a really interesting experience. We hope the readers have as much fun experiencing the comic as we did making it!
