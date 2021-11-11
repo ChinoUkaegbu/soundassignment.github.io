@@ -35,6 +35,13 @@ canvas {
   display: block;
 }
 
+button{
+  background-color: grey;
+  border: none;
+  font-size: 16px;
+  padding: 10px 16px;
+  color: white;
+}
 button:hover{
   background: #555555;
   border-radius: 50px;
