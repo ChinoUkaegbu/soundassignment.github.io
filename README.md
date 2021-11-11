@@ -13,7 +13,7 @@ This comic project leads the readers to narrowing down the exact place the cat w
 
 + **Panel 1**
   
-  The first panel sets an introduction to the intelligent, telling audience the background of the story and the button on the page to interact with. For the geometric figure, I use p5.js to reach the effect I want. The figure itself is constitute of several rotated squares, and the length of the squares are changing according to the sound track volume. The sound is constitute of adjusted recorded vocal, and fade-in heartbeat.
+  The first panel sets an introduction to the intelligent, telling audience the background of the story and the button on the page to interact with. For the geometric figure, I use p5.js to reach the effect I want. The figure itself is constitute of several rotated squares, and the length of the squares are changing according to the sound track volume. I made it rotate steadily and linearly to the time passing, and the sound is constitute of adjusted recorded vocal, and fade-in heartbeat.
   
 
 + **Panel 2**
