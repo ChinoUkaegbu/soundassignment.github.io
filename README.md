@@ -1,4 +1,4 @@
-# Comic Assignment - *Missing Cat*
+# Sound Assignment - *Astara*
 
 ## Nouf Alabbasi, Gopika Krishnan, Tina Zhang, Chinonyerem Ukaegbu
 
