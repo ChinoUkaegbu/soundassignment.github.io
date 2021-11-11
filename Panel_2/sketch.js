@@ -26,13 +26,15 @@ function setup() {
   angleMode(DEGREES);
   heartBeat.loop();
   heartBeat.pause();
-  Tasks.play();
+  Tasks.pause();
 
   amp = new p5.Amplitude();
 }
 
 
 function draw() {
+
+
   background(0);
   var vol = amp.getLevel();
 
@@ -61,11 +63,11 @@ function draw() {
     volhistory.splice(0, 1);
   }
   //end drawing the wave code
-
   console.log(Tasks.currentTime());
   // the changing day
   if (Tasks.currentTime()<=23){
     $("#Day").html("Sunday");
+    
   }
   else if (Tasks.currentTime()>23 && Tasks.currentTime()<=51){
     $("#Day").html("Monday");
@@ -73,7 +75,7 @@ function draw() {
   else if(Tasks.currentTime()>51 && Tasks.currentTime()<=73){
     $("#Day").html("Tuesday");
   }
-  else if(Tasks.currentTime()>74 && Tasks.currentTime()<=75){
+  else if(Tasks.currentTime()>73 && Tasks.currentTime()<=75){
     $("#Day").html("Wednesday");
   }
   else if(Tasks.currentTime()>75 && Tasks.currentTime()<=76){
@@ -121,17 +123,20 @@ function draw() {
 function turnOn(){
   if (heartBeat.isPaused()) {
     heartBeat.play();
-  }
-  if (Tasks.isPaused()) {
     Tasks.play();
   }
+  // if (Tasks.isPaused()) {
+  //   Tasks.play();
+  // }
 }
 
 function turnOff(){
   if (heartBeat.isPlaying()) {
     heartBeat.pause();
-  }
-  if (Tasks.isPlaying()) {
     Tasks.pause();
   }
+  
+  // if (Tasks.isPlaying()) {
+  //   Tasks.pause();
+  // }
 }
