@@ -50,10 +50,6 @@ The other sounds were sourced from the web including but not limited to the song
 
 ### **Reflection**
 
-We found this project to be very fun! It was rather interesting to work on the different parts of the website together and to make some certain changes, discuss how we could make it better, discuss implementations etc. Overall, I believe our expectations for the project were met. We just really wanted the readers to have fun exploring the story and to have a very wholesome experience in total. We also believed the implementation was way less stressful than the first website, now that we've played around with website making so it was a really interesting experience. We hope the readers have as much fun experiencing the comic as we did making it!
+This project was so much fun to work on for all of us. We divided the different parts of the story among us and we think this was a great way to make sure everyone had an equal amount of work. We met in between to record and the recording sessions were fun learning experiences. We chose to do it in a lounge to minimize noise and all of us took turns to use the equipment. Working on the website was very cool since we were working with a tech related aesthetic. Also, since we divided parts of the story among ourselves, one person could give their all to their part and develop that part of the story without worrying about the rest of the story which gave space for creativity. On the whole, we had fun telling the story of Astara!
 
-
-### **Interesting Notes**
-
-For some reason, one of the fonts that was in .ttf wasn't loading until we converted it to .otf even though the other fonts were in .ttf! Also, Github takes some time to show the changes you've effected so you have to consider that as well.
 
