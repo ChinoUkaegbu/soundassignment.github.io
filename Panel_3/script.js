@@ -2,12 +2,19 @@
 
 
 window.onload = function(argument) {
+	var OffButton = document.getElementById("off_button");
+	var OnButton = document.getElementById("on_button");
+
 	let audioPlayer = document.getElementById('player');
 	audioPlayer.loop = true;
 
 	//Click anywhere to trigger the sound
-	window.addEventListener('click', () => {
+	OnButton.addEventListener('click', () => {
 	  audioPlayer.play();
+	});
+
+	OffButton.addEventListener('click', () => {
+		audioPlayer.pause();
 	});
 
 	// var lyric = "i couldn't take it couldn't stand another minute couldn't bear another day without you in it";

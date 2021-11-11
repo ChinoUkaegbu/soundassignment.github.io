@@ -36,3 +36,28 @@ h1{
 }
 
 /* end of turn button */
+
+button{
+  background-color: grey;
+  border: none;
+  font-size: 16px;
+  padding: 10px 16px;
+  color: white;
+}
+
+button:hover{
+  background: #555555;
+  border-radius: 50px;
+}
+button{
+  border-radius: 50px;
+}
+#on_button{
+  position: fixed;
+  bottom: 0;
+}
+#off_button{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
