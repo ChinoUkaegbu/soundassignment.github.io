@@ -33,13 +33,11 @@ This comic project leads the readers to narrowing down the exact place the cat w
 
 + **Panel 5**
   
-  Finally!! This panel shows you who the criminal was. Speech balloons were used to make it seem like there were actual dialogues. The location was set by giving specific location through percentages.
-  
+  Here, Astara breaks into a song. She is done with the human's work and contemplates on her life. Where are her to-do lists? Where is her recommended article for self care? She's decided that none of this shall hold anymore. For the implementation of this panel, a radial graph was used to indicate the amplitude of the song. The song was a remix with Mitski's 'Nobody' and our own recorded dialogues. The radial graph is colored to sync with the audio, it alternates between green and red as the audio of Astara speaking comes up. In the end, when the chorus hits, random() function is used to create a disco-like effect. Multiple radial graphs were put on the website and this was an aesthetic choice. As the song ends, a message notification tone is heard and a message alert pops up. The message indicates that Astara has decided to take a vacation to Hawaii and used all of her Human's money to do so. This was done using SweetAlert2 to make it look realistic. The changes of color in the radial graph and the message alert was synced with the audio using addCue() function. There's audio playing when the message alert pops up of an airport announcement calling Astara to report at the boarding gate to her flight to Hawaii. When you click on the button 'Let's fly', the final panel appears. 
 
 + **Panel 6**
-  
-  The ending page wraps up the comic by granting you a huge amount of money! A cute image with the message "Congratulations You Won!" and an image of a happy cat is displayed! The adventure is over but if the reader would like to play again, they can either click the 'Go Back to Home' button on the navigation bar which will take them to the index page, or click the 'Missing Cat' button which will take them to the first panel.
-
+  In this panel, you will hear audio related to Hawaii. On the page, there's photos of Astara enjoying her vacation in Hawaii. 
+Pixlr (free alternative to Photoshop) was used to create these photos. There's a button linking to the Github repo of the website after the photos. 
 
 
 ### **Reflection**
