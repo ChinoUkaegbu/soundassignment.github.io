@@ -15,7 +15,7 @@ Introducing Astara, a digital assistant tasked with managing the lives of humans
 
 + **Panel 2**
   
-  The second panel shows the cats and the cat mom being interviewed. This panel provides clues and hints as to where the missing cat might be which influences the decisions the reader makes in the next panel. The images were placed in a grid and the grid-template-areas properties was used to position the images. Then the speech bubbles were downloaded as PNGs with transparent backgrounds. And then, the opacity of the speech bubbles was set to 0 and would only be displayed when the reader hovers over the image.
+  The second panel shows the user's repetitive tasks Astara has to deal with. It shows the day at the top left and a heart beat can be heard in the background of page. Astara schdules all the appointments adds items to do lists and at the end gets fed up and we see her turn evil.
   
   
 + **Panel 3**
