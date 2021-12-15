@@ -163,7 +163,7 @@ function draw(){
 //the message content
 
 function pop() {
-	alert('Hello\nHow are you?')
+	alert('Hello\nHow are you?');
 
     document.getElementsByTagName("a")[0].style.color = "black";
 }
