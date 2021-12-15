@@ -165,6 +165,6 @@ function draw(){
 function pop() {
 	alert('Hello\nHow are you?')
 
-    
+    document.getElementsByTagName("a")[0].style.color = "black";
 }
 
