@@ -9,6 +9,13 @@ body{
   align-items: center;
   justify-content: center;
 }
+#notification {
+  background-color: pink;
+  width: 100px;
+  height:200px;
+  z-index: 999;
+  position:absolute;
+}
 a:link {
   text-decoration: none;
 }
