@@ -51,7 +51,7 @@ function togglefinal(){
 
 //final alert message
 function messagepop(){
-    pop();
+    yuh();
     airport.play();
     noLoop();
     finalcredits();
@@ -164,7 +164,7 @@ function draw(){
 
 //the message content
 
-function pop() {
+function yuh() {
 // 	alert('Hello\nHow are you?');
 	notification.style.opacity = "1";
 
