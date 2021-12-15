@@ -100,7 +100,7 @@ function togglefinal(){
 
 function messagepop(){
 
-    fireSweetAlert();
+    pop();
 
     airport.play();
 
@@ -326,23 +326,8 @@ function draw(){
 
 
 
-function fireSweetAlert() {
+function pop() {
 
-    //Swal.fire({
-
-        //title: 'Dear Valued Customer Astara,',
-
-        //icon:"success",
-
-        //html: "Your all-expense trip to Hawaii has been booked successfully! $300,000 have been charged on Human's account",
-
-//confirmButtonText:"<a href='six.html' >Let's Fly!</a>"
-
-    //}
-
-    //)
-
-    //document.getElementsByTagName("a")[0].style.color = "black";
                          alert('Hello\nHow are you?')
 
 
