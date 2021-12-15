@@ -2,6 +2,8 @@
 //1.Radial graph(https://www.youtube.com/watch?v=h_aTgOl9J5I&list=PLglp04UYZK_PrN6xWo_nJ-8kzyXDyFUwi&index=88)
 //2.Message Alert(https://sweetalert2.github.io/)
 
+let notification = document.getElementById("notification");
+
 var song;
 var airport;
 
@@ -163,7 +165,8 @@ function draw(){
 //the message content
 
 function pop() {
-	alert('Hello\nHow are you?');
+// 	alert('Hello\nHow are you?');
+	notification.style.opacity = "1";
 
     document.getElementsByTagName("a")[0].style.color = "black";
 }
