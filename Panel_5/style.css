@@ -35,7 +35,8 @@ button{
 /*   height:200px; */
   z-index: 999;
   position:absolute;
-  top:0;
+/*   top:0; */
+  text-align:center;
 }
 a:link {
   text-decoration: none;
