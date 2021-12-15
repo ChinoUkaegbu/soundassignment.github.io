@@ -10,11 +10,12 @@ body{
   justify-content: center;
 }
 #notification {
-  background-color: pink;
+  background: pink;
   width: 100px;
   height:200px;
   z-index: 999;
   position:absolute;
+  top:0;
 }
 a:link {
   text-decoration: none;
